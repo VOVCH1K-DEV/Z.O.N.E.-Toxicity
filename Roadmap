@@ -2,7 +2,62 @@ Roadmap
 
 Phase	Tasks
 Phase 1: Learning	Complete. Build a basic multiplayer prototype.
+Step 1: 
+Learn the Basics of PurrNet
+Complete set up a basic multiplayer game in Unity.
+Key Concepts to Focus On:
+Setting up a server and client.
+Synchronizing player movement and actions.
+Handling basic interactions (e.g., shooting, picking up items).
+
+Step 2:
+Core Gameplay Loop:
+Players explore a small open-world map.
+They fight AI enemies (e.g., mutants or bandits).
+They collect loot (weapons, ammo, artifacts) and complete objectives.
+
+Multiplayer Features:
+Co-op mode for 2-4 players.
+Basic PvP (optional, for later).
+
+Atmosphere:
+Dark, eerie environment with dynamic weather and day-night cycles.
+
 Phase 2: Core Game	Implement player movement, shooting, AI enemies, and loot system.
-Phase 3: Polish	Add atmosphere, objectives, and survival mechanics.
-Phase 4: Expand	Add more features (anomalies, artifacts, larger map).
-Phase 5: Release	Test, optimize, and release a small co-op experience.
+Step 3:
+1. Player Movement and Synchronization
+Use PurrNet to sync player movement, rotation, and animations.
+Add a basic FPS controller (you can find free or paid ones on the Unity Asset Store).
+2. Weapons and Shooting
+Implement a basic shooting system.
+Sync shooting, reloading, and ammo counts across players.
+Add hit detection for both players and AI enemies.
+3. AI Enemies
+Start with simple AI (e.g., enemies that chase and attack players).
+Sync enemy positions and states (e.g., idle, chasing, attacking) across the network.
+4. Loot and Inventory
+Create a system for picking up items (weapons, ammo, artifacts).
+Sync inventory data across players.
+5. Objectives and Quests
+Add simple objectives (e.g., “Kill 5 mutants” or “Find the artifact”).
+Sync objective progress across players.
+
+Phase 3: Polish, objectives, and survival mechanics.
+
+Step 4:
+Atmosphere:
+Add dynamic weather (rain, fog) and a day-night cycle.
+Use sound effects and music to create tension.
+
+Anomalies and Artifacts:
+Create hazardous zones (anomalies) that damage players.
+Add artifacts that grant special abilities but have trade-offs.
+
+Exploration:
+Expand your map with hidden loot, secrets, and points of interest.
+
+Survival Mechanics:
+Add hunger, radiation, and health management systems.
+
+Phase 4: Expand	(anomalies, artifacts, larger map).
+Phase 5: Test, optimize, and release.
